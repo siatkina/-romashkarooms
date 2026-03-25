@@ -266,18 +266,10 @@
     position: relative;
   }
 
-  .room-card:first-child {
-    grid-column: 1 / -1;
-  }
-
   .room-gallery {
     position: relative;
     overflow: hidden;
     aspect-ratio: 16/9;
-  }
-
-  .room-card:first-child .room-gallery {
-    aspect-ratio: 21/9;
   }
 
   .room-gallery img {
@@ -693,7 +685,6 @@
     .hero-left { padding: 60px 32px; min-height: 60vh; }
     .hero-right { min-height: 50vh; }
     .rooms-grid { grid-template-columns: 1fr; }
-    .room-card:first-child { grid-column: 1; }
     #about, #contact { grid-template-columns: 1fr; padding: 60px 24px; gap: 40px; }
     .pricing-grid { grid-template-columns: 1fr 1fr; }
     .intro-strip { gap: 24px; flex-wrap: wrap; padding: 20px 24px; }
@@ -787,7 +778,7 @@
     <!-- ОДУВАНЧИК -->
     <div class="room-card">
       <div class="room-gallery" id="gallery-oduvanchik">
-        <img src="oduvanchik-main.JPG" alt="Апартаменты Одуванчик — люстра-одуванчик и зелёный кирпич" id="img-oduvanchik">
+        <img src="oduvanchik-main.JPG" alt="Апартаменты Одуванчик — люстра-одуванчик" id="img-oduvanchik">
         <button class="prev-btn" onclick="changeSlide('oduvanchik', -1)">‹</button>
         <button class="next-btn" onclick="changeSlide('oduvanchik', 1)">›</button>
         <div class="gallery-dots" id="dots-oduvanchik">
@@ -930,7 +921,7 @@
           </div>
           <div style="display:flex; gap:16px; align-items:flex-start;">
             <span style="color: var(--gold); font-size:18px; flex-shrink:0;">✦</span>
-            <span style="font-size:14px; color: var(--text-light); line-height:1.6;">Мозаичный пол и лепнина купола — в оригинале</span>
+            <span style="font-size:14px; color: var(--text-light); line-height:1.6;">Мозаичный пол сохранился с XIX века</span>
           </div>
           <div style="display:flex; gap:16px; align-items:flex-start;">
             <span style="color: var(--gold); font-size:18px; flex-shrink:0;">✦</span>
